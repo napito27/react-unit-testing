@@ -8,6 +8,7 @@ React Testing Library and userEvent but also the philosophy behind user-centric 
 Assignment 1: Install Dependencies and Setup 
 • Objective: Set up a new React project, install React Testing Library, and get familiar 
 with the basic testing structure. 
+
 • Tasks: 
 1. Create a new React app using Create React App. 
 2. Install React Testing Library and its dependencies (@testing-library/react 
