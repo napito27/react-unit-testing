@@ -1,4 +1,5 @@
 import UserInput from "./user-input";
 import Greeting from "./greeting";
+import Farewell from "./farewell";
 
-export {Greeting, UserInput}
+export {Farewell, Greeting, UserInput}

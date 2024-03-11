@@ -1,9 +1,10 @@
-import Greeting from "./components/greeting";
+import { Farewell, Greeting } from "./components";
 
 function App() {
   return (
     <div>
       <Greeting greeting='Hello, World!' />
+      <Farewell name='John Doe' />
     </div>
   );
 }

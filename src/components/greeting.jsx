@@ -51,7 +51,9 @@ function Greeting({ greeting = "Please enter greeting message" }) {
         handleTextInput={handleTextInput}
         name={name}
       />
-      {message && <p>Please enter your name.</p>}
+      {message && (
+        <p className='input-error-message'>Please enter your name.</p>
+      )}
     </Card>
   );
 }
