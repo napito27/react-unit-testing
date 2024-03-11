@@ -11,13 +11,22 @@ body {
   line-height: 1.6;
 }
 
+p {
+  color: red;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .card {
   background-color: #fff;
   color: #333;
   border-radius: 1rem;
   padding: 1.5rem .8rem;
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 1.5rem 1rem;
   position: relative;
 }
 
@@ -45,8 +54,8 @@ body {
 }
 
 .btn:hover {
-  transform: scale(0.98);
   opacity: 0.9;
+  transform: scale(0.98);
 }
 
 .btn:disabled {
@@ -56,6 +65,29 @@ body {
 }
 
 .btn:disabled:hover {
-  transform: scale(1);
   opacity: 1;
+  transform: scale(1);
+}
+
+.input-group {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  margin: 1rem auto;
+  padding: 8px 10px;
+  width: 500px;
+}
+
+input {
+  border: none;
+  border-radius: .5rem;
+  flex-grow: 2;
+  font-size: 1rem;
+  padding-left: .5rem;
+}
+
+input:focus {
+  outline: none;
 }
