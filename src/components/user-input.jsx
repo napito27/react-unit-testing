@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Card } from "../utilitities";
+import { Button } from "../utilitities";
 
 function UserInput({ handleSubmit, handleTextInput, name }) {
   return (
